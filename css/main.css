@@ -3,23 +3,24 @@
 .title {
   color: black;
   text-align: center;
-  font-size: 42px;
+  font-size: 50px;
 }
 
 body {
-  background-image: url(images/star2.jpg);
+
+  background-image: url("images/star.jpeg");
 
   font-family: 'Lato', sans-serif;
 /*  background-color: black;*/
 }
 
-.textBox {
-  background-color: black;
-  padding: 10%;
+.textbox {
+  background-color: green;
+/*  padding: 10%;
   margin-top: 5%;
   margin-bottom: 5% text-align: left;
   font-size: 34px;
   font-size: 2vw;
   border-radius: 5px;
-  box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.5);*/
 }
