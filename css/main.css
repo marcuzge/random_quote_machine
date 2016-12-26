@@ -1,26 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+
+
+body {
+
+  background: url('../image/star.jpg') no-repeat fixed top;
+/*  background-repeat:no-repeat;
+  background-position: 50% center;*/
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+}
+
 .title {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 50px;
 }
 
-body {
-
-  background-image: url("images/star.jpeg");
-
-  font-family: 'Lato', sans-serif;
-/*  background-color: black;*/
+.textbox {
+  background-color: rgba(29, 119, 115, 0.82);
+  padding: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%; 
+  text-align: left;
+  font-size: 2vw;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px 0 rgba(126, 128, 2, 0.52);
 }
 
-.textbox {
-  background-color: green;
-/*  padding: 10%;
-  margin-top: 5%;
-  margin-bottom: 5% text-align: left;
-  font-size: 34px;
-  font-size: 2vw;
-  border-radius: 5px;
-  box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.5);*/
+#footer {
+  clear: both;
+  padding: 10px;
+/*  background-color: rgba(29, 119, 115, 0.82);
+*/  color: white;
+  text-align: center;  
 }
