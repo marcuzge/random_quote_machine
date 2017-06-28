@@ -36,7 +36,7 @@ function getQuote() {
           $(this).animate({
             opacity: 1
           }, 500);
-          $('#text').text(r.quote);
+          $('#text').text(res.quote);
         });
 
       $(".quote-author").animate({
@@ -46,7 +46,7 @@ function getQuote() {
           $(this).animate({
             opacity: 1
           }, 500);
-          $('#author').html(r.author);
+          $('#author').html(res.author);
         });
 
       if ((currentQuote.length + currentAuthor.length + 1) > 140){
